@@ -23,7 +23,8 @@ app.use(cors({
         'http://127.0.0.1:5173',
         'http://localhost:5174',
         'http://127.0.0.1:5174',
-        'https://cr-frontend-15o2.onrender.com'  // Add your frontend domain
+        'https://cr-frontend-15o2.onrender.com',
+        'https://carenntal.netlify.app' // Netlify frontend
     ],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
