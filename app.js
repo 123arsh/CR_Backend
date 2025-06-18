@@ -22,8 +22,9 @@ app.use(cors({
         'http://localhost:5173',
         'http://127.0.0.1:5173',
         'http://localhost:5174',
-        'http://127.0.0.1:5174'
-    ], // Allow both localhost variations for user and admin
+        'http://127.0.0.1:5174',
+        'https://cr-frontend-15o2.onrender.com'  // Add your frontend domain
+    ],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept'],
